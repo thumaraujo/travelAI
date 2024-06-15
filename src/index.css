@@ -1,0 +1,80 @@
+body {
+  background-color: #ffe6e6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  margin: 100px auto;
+  max-width: 800px;
+}
+
+h1 {
+  background: linear-gradient(to right, #3e2723, #6d4c41);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: 1px;
+  font-size: 50px;
+  line-height: 2;
+  font-size: 2.5em;
+  font-family: "Roboto", Arial, sans-serif;
+}
+form {
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 30px;
+}
+footer {
+}
+.submit-button {
+  margin-left: 10px;
+  background-color: #ff6f61;
+  color: #ffffff;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 30px;
+  width: 140px;
+  font-size: 14px;
+}
+.submit-button:hover {
+  background-color: #e64a19;
+}
+.prompt {
+  padding: 16px;
+  border: 1px solid rgba(39, 33, 66, 0.5);
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 20px;
+  color: #3e2723;
+}
+.travel {
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: #fff;
+  padding: 20px;
+  line-height: 2;
+  border-left: 3px solid white;
+  box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+}
+.hidden {
+  display: none;
+}
+
+.creating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
