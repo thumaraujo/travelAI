@@ -13,7 +13,7 @@ function generateTravel(event) {
   let promptInput = document.querySelector("#user-prompt");
   let apiKey = "406tac3d1af0db7dfbb34a6c42bb8ofe";
   let context =
-    "You're a travel specialist, you know details about places all over the world and the best things to do in each one. Write using HTML and <br />.";
+    "You're a travel specialist, you know details about places all over the world and the best things to do in each one. Write using HTML and <br />. Be organized and make the use of categories for each tip.";
   let prompt = `Write an answer about things to do, focusing on ${promptInput.value}`;
   let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
